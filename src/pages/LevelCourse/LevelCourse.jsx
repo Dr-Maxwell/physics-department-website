@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { level_1_Image } from "../../../src/level-100.jpg";
-import { level_2_Image } from "../../../src/level-200.jpg";
-import { level_3_Image } from "../../../src/level-300.jpg";
-import { level_4_Image } from "../../../src/final-year.jpg";
+// import { level_1_Image } from "../../../src/level-100.jpg";
+// import { level_2_Image } from "../../../src/level-200.jpg";
+// import { level_3_Image } from "../../../src/level-300.jpg";
+// import { level_4_Image } from "../../../src/final-year.jpg";
 
 const LevelCourse = () => {
   const [message, setMessage] = useState("");
@@ -39,7 +39,7 @@ const LevelCourse = () => {
           {`${message}l Course Outline `}
         </h2>
 
-        <img src={level_1_Image} alt="image" />
+        {/* <img src={level_1_Image} alt="image" /> */}
         <h3>Image suppose e here</h3>
       </div>
     </>
