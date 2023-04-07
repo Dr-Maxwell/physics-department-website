@@ -1,0 +1,54 @@
+.Home {
+  height: calc(110vh - 80px);
+  width: 100vw;
+  position: relative;
+}
+.Home > img {
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100vw;
+}
+.Home-text {
+  inset: 0px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12rem;
+  /* justify-content: center;
+  align-items: center; */
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.Home-text > h3 {
+  font-size: 4rem;
+  color: black;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 0.4);
+}
+/* button {
+  width: 15rem;
+  height: 5rem;
+  margin: 3rem 0rem;
+  background: var(--basicColor);
+  border-radius: 20px;
+  color: white;
+  letter-spacing: 0.2rem;
+  background-color: rgba(250, 250, 250, 0.4);
+} */
+.Home > .Home-text > a > button {
+  width: 17rem;
+  height: 4rem;
+  margin: 3rem 0rem;
+  background: #e6771698;
+  border-radius: 40px;
+  color: white;
+  letter-spacing: 0.5rem;
+  border-color: none;
+  outline: none;
+}
+.Home > .Home-text > a > button:hover {
+  background-color: rgba(250, 250, 250, 0.4);
+  color: black;
+  border: 0.5px solid white;
+}

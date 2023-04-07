@@ -1,0 +1,27 @@
+.courses {
+  width: 100vw;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
+.courses h2 > span {
+  color: white;
+  background-color: #e67716e7;
+  padding: 0.5rem;
+  border-radius: 15px 2px 7px 5px;
+}
+.courses h2 {
+  letter-spacing: 0.2rem;
+}
+.courses > h3 {
+  color: gray;
+  letter-spacing: 0.2rem;
+}
+.Levels_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}

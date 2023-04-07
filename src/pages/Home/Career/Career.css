@@ -1,0 +1,24 @@
+.Career-list {
+  padding: 2rem 0rem;
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+.Career-list > .career-heading > h2 > span {
+  color: white;
+  background-color: #e67716e8;
+  padding: 0.5rem;
+  border-radius: 15px 2px 7px 5px;
+}
+.Career-list > .career-heading > h2 {
+  letter-spacing: 0.5rem;
+}
+.Career-list > .career-heading > h3 {
+  text-transform: capitalize;
+  color: rgb(134, 130, 130);
+  letter-spacing: 0.3rem;
+}
+.career-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
