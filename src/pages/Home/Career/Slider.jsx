@@ -12,8 +12,8 @@ import "./Slider.css";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
 export default function Slider() {
-  const [windowSize, setWindowSize] = useState([window.innerWidth]);
-  const [preview, setPreview] = useState(windowSize <= 800 ? 1 : 3);
+  // const [windowSize, setWindowSize] = useState([window.innerWidth]);
+  // const [preview, setPreview] = useState(windowSize <= 800 ? 1 : 3);
   // useEffect(() => {
   //   const handleWindowResize = () => {
   //     setWindowSize([window.innerWidth]);
@@ -29,12 +29,23 @@ export default function Slider() {
   //   return () => {
   //     window.removeEventListener("resize", handleWindowResize);
   //   };
-  // });
+  // },[]);
 
   return (
     <>
       <Swiper
-        slidesPerView={preview}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        }}
+        // slidesPerView={preview}
         spaceBetween={20}
         pagination={{
           clickable: true,

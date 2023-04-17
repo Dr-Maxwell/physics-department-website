@@ -13,6 +13,7 @@
 .swiper-slide .SwiperSlide {
   height: 100%;
   position: relative;
+  margin-bottom: 2rem;
 }
 .swiper-slide > .SwiperSlide > p {
   text-align: justify;

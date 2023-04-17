@@ -5,6 +5,7 @@ function Level(props) {
   const navigate = useNavigate();
   return (
     <div
+      style={{ cursor: "pointer" }}
       onClick={() => navigate(`/${props.Route}`)}
       className="level_component"
     >

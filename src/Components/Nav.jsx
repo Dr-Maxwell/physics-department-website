@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../src/logo.png";
 import "./MyNav/Nav.css";
 import { FaTwitter, FaBars, FaFacebook } from "react-icons/fa";
@@ -6,7 +6,12 @@ import { useNavigate } from "react-router-dom";
 const Nav = () => {
   const navigate = useNavigate();
   const [display, setdisplay] = useState(false);
-  const isMobile = window.innerWidth < 900;
+  const [isMobile, setisMobile] = useState();
+
+  useEffect(() => {
+    setisMobile(window.innerWidth);
+  }, []);
+
   // function DisplayNavFunc() {
   //   let className =
   // }
@@ -25,7 +30,7 @@ const Nav = () => {
 
       <div
         className={
-          isMobile
+          isMobile < 900
             ? display
               ? "second-nav-ele"
               : "hideDisplay"
