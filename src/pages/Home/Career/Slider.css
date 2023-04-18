@@ -17,6 +17,7 @@
 }
 .swiper-slide > .SwiperSlide > p {
   text-align: justify;
+  /* backgd */
 }
 /* .SwiperSlide {
   display: flex;
