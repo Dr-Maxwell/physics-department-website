@@ -8,13 +8,13 @@ const LevelCourse = () => {
   const [message, setMessage] = useState("");
   const [data, setData] = useState([]);
   const { level } = useParams();
-  const image = [
-    { id: 100, Image: FirstLevel },
-    { id: 200, Image: level_2_Image },
-    { id: 300, Image: level_3_Image },
-    { id: 400, Image: Lastlevel },
-  ];
-  const displayImage = image.filter((img) => level == img.id);
+  // const image = [
+  //   { id: 100, Image: FirstLevel },
+  //   { id: 200, Image: level_2_Image },
+  //   { id: 300, Image: level_3_Image },
+  //   { id: 400, Image: Lastlevel },
+  // ];
+  // const displayImage = image.filter((img) => level == img.id);
   useEffect(() => {
     switch (level) {
       case "100":
@@ -42,15 +42,22 @@ const LevelCourse = () => {
           {" "}
           {`${message}l Course Outline `}
         </h2>
-        <img
-          src={displayImage.Image}
-          alt="image"
-          style={{
-            width: "100vw",
-            backgroundSize: "contain",
-            backgroundPosition: "center",
-          }}
-        />
+        <div
+          className="image"
+          style={{ width: "100vw", height: "80vh", overflow: "scroll" }}
+        >
+          <img
+            src={FirstLevel}
+            alt="image"
+            style={{
+              width: "100%",
+              height: "100%",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          />
+        </div>
       </div>
     </>
   );

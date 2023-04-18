@@ -70,7 +70,7 @@
     animation-name: example;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     /* animation-iteration-count: 2;
     animation-direction: alternate; */
     /* animation-direction: reverse; */
@@ -150,15 +150,14 @@
   }
   .Levels_Container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
     width: 100vw;
-    padding-left: 2rem;
   }
   .level_component {
-    width: 100px;
-    height: 100px;
+    margin: 2rem 0rem 0rem 1rem;
   }
 
   .first-nav-ele {

@@ -10,7 +10,7 @@ const Nav = () => {
 
   useEffect(() => {
     setisMobile(window.innerWidth);
-  }, []);
+  });
 
   // function DisplayNavFunc() {
   //   let className =
