@@ -1,0 +1,19 @@
+.Wrapper {
+  position: relative;
+  margin-top: 5rem;
+  width: 100vw;
+}
+.Wrapper-text {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.Wrapper-image {
+  width: 100vw;
+}
+.Wrapper-image img {
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0.5rem;
+}

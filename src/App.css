@@ -159,6 +159,10 @@
   .level_component {
     margin: 2rem 0rem 0rem 1rem;
   }
+  .Levels_Container > * {
+    width: 200px;
+    height: 200px;
+  }
 
   .first-nav-ele {
     display: flex;

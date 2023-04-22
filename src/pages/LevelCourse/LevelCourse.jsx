@@ -4,6 +4,7 @@ import FirstLevel from "../../../src/image.jpg";
 import level_2_Image from "../../../src/level-200.jpg";
 import level_3_Image from "../../../src/level-300.jpg";
 import Lastlevel from "../../../src/final.jpg";
+import "./LevelCourse.css";
 const LevelCourse = () => {
   const [message, setMessage] = useState("");
   const { level } = useParams();
@@ -34,27 +35,13 @@ const LevelCourse = () => {
   console.log(data);
   return (
     <>
-      <div style={{ position: "relative", marginTop: "5rem", width: "100vw" }}>
-        <div style={{ marginTop: "1.5rem", fontSize: "1.2rem" }}>
+      <div className="Wrapper">
+        <div className="Wrapper-text">
           {" "}
           {`${message} Level Course Outline `}
         </div>
-        <div
-          className="image"
-          style={{ width: "100vw", height: "90vh", overflow: "scroll" }}
-        >
-          <img
-            src={data}
-            alt="image"
-            style={{
-              width: "100%",
-              height: "100%",
-              backgroundSize: "contain",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              marginTop: "-2rem",
-            }}
-          />
+        <div className="Wrapper-image">
+          <img src={data} alt="image" />
         </div>
       </div>
     </>
