@@ -1,0 +1,65 @@
+.Footer {
+  padding-top: 2rem;
+  min-height: 40vh;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(0, 0, 0, 0.945);
+}
+.Footer > * span {
+  width: fit-content;
+  border-bottom: 2px solid #e6771698;
+  margin-bottom: 3rem;
+}
+.footer-child-two {
+}
+.Footer > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.links ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-left: -2rem;
+}
+.footer-child-three .socials > * {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  justify-content: space-around;
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+}
+.socials span a {
+  color: white;
+}
+.socials span a:hover {
+  color: blue;
+}
+.menu-list ul li a {
+  color: white;
+  cursor: pointer;
+}
+.menu-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  list-style: none;
+  margin-left: -1.5rem;
+}
+.menu-list ul li a:hover {
+  color: blue;
+}

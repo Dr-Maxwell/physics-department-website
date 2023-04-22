@@ -1,0 +1,31 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  margin-top: 2rem;
+  padding-top: 2rem;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+.about_grid_template {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid_paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+}
+.grid_paragraph p {
+  text-align: center;
+  min-height: 90%;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
+/* .grid_image {
+} */

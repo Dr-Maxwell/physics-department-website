@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="Home-text">
         <h3>Exploring The Universe And Its Energy ...</h3>
 
-        <a href="#">
+        <a href="#about">
           <button>LEARN MORE</button>
         </a>
       </div>
