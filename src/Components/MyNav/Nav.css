@@ -3,7 +3,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 1200;
+  z-index: 1;
   height: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.041),
     0 6px 20px 0 rgba(0, 0, 0, 0.014);
@@ -12,38 +12,26 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  overflow-y:hidden ;
+  color: black;
 }
 .image {
   width: 80px;
   height: 80px;
   padding: 1.5em;
+  overflow-y: hidden ;
   will-change: filter;
   transition: filter 300ms;
   animation: rotation 4s infinite linear;
 }
-/* .image:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.image.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */
-/* @keyframes rotation {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-} */
 .image img {
   position: relative;
   height: 100%;
   width: 100%;
 }
 .first-nav-ele {
-  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .first-nav-ele > .dept-name > * span {
@@ -51,28 +39,30 @@
 }
 .dept-name > * {
   font-size: 1.5rem;
+  
 }
 .dept-name {
-  position: absolute;
-  left: 6rem;
+  /* position: absolute;
+  left: 6rem; */
   cursor: pointer;
 }
 
 .second-nav-ele ul {
   display: flex;
-  gap: 1rem;
+  justify-content: space-around;
   list-style: none;
 }
 .second-nav-ele ul li {
-  display: flex;
   cursor: pointer;
+  margin-right: 2rem;
 }
 .second-nav-ele ul li a {
   padding: 0.5rem;
   color: black;
   border-radius: 5px;
+  
 }
-.second-nav-ele ul li a:hover {
+.second-nav-ele ul li :hover {
   color: #29156e;
   border: 3px solid #e6771698;
 }

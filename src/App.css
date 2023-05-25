@@ -14,6 +14,7 @@
   margin: 0 auto;
   width: 100%;
   position: relative;
+  background-color: white;
   box-sizing: border-box;
   overflow-x: hidden;
   /* display: flex;
@@ -58,23 +59,19 @@
   .second-nav-ele {
     position: absolute;
     top: 60px;
-    left: 80px;
+    left: 70px;
     right: 0;
+  
     display: block;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 3;
     height: 300px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     animation-name: example;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
     animation-duration: 1.2s;
-    /* animation-iteration-count: 2;
-    animation-direction: alternate; */
-    /* animation-direction: reverse; */
-    /* border-radius: 30px 0px 0px 30px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     border: none;
     outline: none;
   }
@@ -97,7 +94,7 @@
     display: flex;
     position: absolute;
     right: 0;
-    top: 1.05rem;
+    top: 2rem;
   }
   .third-nav-ele .task button {
     background-color: white;
@@ -113,8 +110,10 @@
     display: flex;
     justify-self: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+ 
+
   .second-nav-ele ul {
     display: block;
     flex-direction: column;

@@ -12,21 +12,21 @@ const Footer = () => {
   return (
     <div className="Footer" id="material">
       <div className="footer-child-one">
-        <span>LINKS {<FaLink />}</span>
+        <span>MATERIALs {<FaLink />}</span>
 
         <div className="links">
           <ul>
             <li>
-              <a href="https://t.me/naps100L">Link 1</a>
+              <a href="https://t.me/naps100L">100 level</a>
             </li>
             <li>
-              <a href="https://t.me/naps200L">Link 2</a>
+              <a href="https://t.me/naps200L">200 level</a>
             </li>
             <li>
-              <a href="https://t.me/naps300L">Link 3</a>
+              <a href="https://t.me/naps300L">300 level</a>
             </li>
             <li>
-              <a href="https://t.me/naps400L">Link 4</a>
+              <a href="https://t.me/naps400L">400 level</a>
             </li>
           </ul>
         </div>
@@ -70,11 +70,6 @@ const Footer = () => {
           <span>
             <a href="">
               <FaTelegram />
-            </a>
-          </span>
-          <span>
-            <a href="">
-              <FaInstagram />
             </a>
           </span>
         </div>

@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   min-height: 80vh;
+  color: black;
 }
 .courses h2 > span {
   color: white;
