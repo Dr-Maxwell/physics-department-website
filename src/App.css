@@ -57,15 +57,14 @@
 }
 @media screen and (max-width: 900px) {
   .second-nav-ele {
-    position: absolute;
+    position: fixed;
     top: 60px;
     left: 70px;
     right: 0;
-  
     display: block;
     justify-content: space-between;
     align-items: center;
-    z-index: 3;
+    z-index: 1600;
     height: 300px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -75,6 +74,9 @@
     border: none;
     outline: none;
   }
+  .second-nav-ele li{
+    margin-top: 2.5rem;
+  }
   @keyframes example {
     0% {
       transform: translateX(250px);
@@ -83,9 +85,10 @@
       transform: translateX(0px);
     }
   }
-  .hideDisplay {
-    display: none;
+  .hideDisplay {display: none;
+
   }
+  
   .third-nav-ele .icons {
     display: none;
     visibility: hidden;
@@ -115,9 +118,8 @@
  
 
   .second-nav-ele ul {
-    display: block;
+    display: flex;
     flex-direction: column;
-
     justify-content: center;
   }
   .second-nav-ele ul * {

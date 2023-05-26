@@ -65,7 +65,7 @@ const Nav = () => {
           </i>
         </div>
         <div className="task">
-          <button onClick={() =>(setdisplay(!display))}>
+          <button onClick={() => setdisplay(!display)}>
             <i>
               <FaBars />
             </i>

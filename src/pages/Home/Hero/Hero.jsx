@@ -10,15 +10,17 @@ const Hero = () => {
       {" "}
       <img src={HomeImg} alt="" />
       <div className="Home-text">
-        <h3><Typewriter
+        <h1><Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString('Welcome To The Department Of Physics')
+    typewriter.typeString('Welcome To Department Of Physics.')
     .deleteAll()
     typewriter.typeString('Exploring The Universe And Its Energy ...')
       .pauseFor(1500)
+      // onInit()
       .start();
+      
   }}
-/></h3>
+/></h1>
 
         <a href="#about">
           <button>LEARN MORE</button>

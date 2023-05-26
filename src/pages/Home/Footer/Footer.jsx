@@ -7,8 +7,12 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
+import { useAuth } from "../../../contexts/AuthContext";
 
 const Footer = () => {
+  const {role, isLoggedIn} = useAuth();
+  console.log(role);
+
   return (
     <div className="Footer" id="material">
       <div className="footer-child-one">
