@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./Footer.css";
 import {
@@ -7,10 +9,9 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
-import { useAuth } from "../../../contexts/AuthContext";
 
 const Footer = () => {
-  const {role, isLoggedIn} = useAuth();
+  const { role, isLoggedIn } = useAuth();
   console.log(role);
 
   return (
