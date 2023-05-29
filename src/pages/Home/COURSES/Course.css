@@ -1,3 +1,5 @@
+/** @format */
+
 .courses {
   width: 100vw;
   margin-top: 1rem;
@@ -26,4 +28,8 @@
   justify-content: center;
   min-height: 50vh;
   /* width: 100vw; */
+}
+.Levels_Container > *:hover {
+  background-color: #e67716e7;
+  color: white;
 }

@@ -1,8 +1,9 @@
+/** @format */
+
 .Home {
   height: 100vh;
   width: 100vw;
   position: relative;
- 
 }
 .Home > img {
   background-repeat: no-repeat;
@@ -18,7 +19,7 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.9);
 }
-.Home-text > h1 {
+.Home-text > h3 {
   font-size: 4rem;
   color: black;
   padding: 1rem;

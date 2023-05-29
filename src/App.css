@@ -1,3 +1,5 @@
+/** @format */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap");
 #root {
   /* max-width: 1280px; */
@@ -65,7 +67,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1600;
-    height: 300px;
+    min-height: 310px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     animation-name: example;
@@ -74,8 +76,16 @@
     border: none;
     outline: none;
   }
-  .second-nav-ele li{
-    margin-top: 2.5rem;
+  .second-nav-ele ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .second-nav-ele li {
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
   }
   @keyframes example {
     0% {
@@ -85,10 +95,10 @@
       transform: translateX(0px);
     }
   }
-  .hideDisplay {display: none;
-
+  .hideDisplay {
+    display: none;
   }
-  
+
   .third-nav-ele .icons {
     display: none;
     visibility: hidden;
@@ -97,7 +107,7 @@
     display: flex;
     position: absolute;
     right: 0;
-    top: 2rem;
+    top: 1.5rem;
   }
   .third-nav-ele .task button {
     background-color: white;
@@ -115,7 +125,6 @@
     align-items: center;
     font-size: 2rem;
   }
- 
 
   .second-nav-ele ul {
     display: flex;
