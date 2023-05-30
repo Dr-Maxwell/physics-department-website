@@ -3,9 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap");
 #root {
   /* max-width: 1280px; */
-  margin: 0 auto;
+  margin: 0px;
   /* padding: 2rem; */
   text-align: center;
+  text-decoration: none;
 }
 :root {
   --basicColor: rgba(252, 5, 5, 0.5);
@@ -13,8 +14,8 @@
 .App {
   font-family: "Roboto Serif", serif;
   padding: 0rem;
-  margin: 0 auto;
-  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
   position: relative;
   background-color: white;
   box-sizing: border-box;
@@ -46,7 +47,7 @@
 .hideDisplay ul li > * {
   color: black;
 } */
-.level_component {
+/* .level_component {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +57,7 @@
   height: 150px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
+} */
 @media screen and (max-width: 900px) {
   .second-nav-ele {
     position: fixed;
@@ -67,6 +68,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1600;
+    overflow: hidden;
     min-height: 310px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -158,12 +160,12 @@
   .Home > .Home-text > h3 {
     font-size: 2rem;
   }
-  .Levels_Container {
+  /* .Levels_Container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-wrap: wrap;
-    justify-content: space-around; */
+     flex-wrap: wrap;
+    justify-content: space-around; 
     width: 100vw;
   }
   .level_component {
@@ -172,7 +174,7 @@
   .Levels_Container > * {
     width: 200px;
     height: 200px;
-  }
+  } */
 
   .first-nav-ele {
     display: flex;

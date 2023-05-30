@@ -1,14 +1,22 @@
+/** @format */
+
 .Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin-top: 5rem;
-  width: 100vw;
 }
 .Wrapper-text {
+  text-align: center;
   margin-top: 2rem;
   font-size: 1.2rem;
 }
 .Wrapper-image {
-  width: 100vw;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .Wrapper-image img {
   width: 100%;

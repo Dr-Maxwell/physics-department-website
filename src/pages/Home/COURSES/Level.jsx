@@ -1,4 +1,7 @@
+/** @format */
+
 import React from "react";
+import "./Course.css";
 import { useNavigate } from "react-router-dom";
 
 function Level(props) {

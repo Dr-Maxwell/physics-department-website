@@ -25,11 +25,28 @@
 .Levels_Container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 50vh;
+  justify-content: space-around;
+  /* min-height: 80vh; */
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  width: 100%;
+
   /* width: 100vw; */
 }
-.Levels_Container > *:hover {
+.level_component {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10%;
+  align-items: center;
+  border-radius: 50%;
+  width: 180px;
+  text-align: center;
+  height: 180px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.Levels_Container > .Each_Level_Component > *:hover {
   background-color: #e67716e7;
   color: white;
 }

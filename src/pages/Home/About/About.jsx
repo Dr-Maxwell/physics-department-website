@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./About.css";
 import AboutImage from "../../../../src/rotateImage.png";
@@ -5,9 +7,9 @@ import AboutImage from "../../../../src/rotateImage.png";
 const About = () => {
   return (
     <div className="header" id="about">
-      <h2>
+      <h3>
         ABOUT <span>DEPARTMENT</span>
-      </h2>
+      </h3>
       <div className="about_grid_template">
         <div className="grid_paragraph">
           <p>
@@ -26,7 +28,7 @@ const About = () => {
           </p>
         </div>
         <div className="About_Image_Grid">
-          <img src={AboutImage}alt="" />
+          <img src={AboutImage} alt="" />
         </div>
       </div>
     </div>
