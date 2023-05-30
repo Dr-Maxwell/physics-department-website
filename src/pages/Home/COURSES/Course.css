@@ -33,11 +33,12 @@
 
   /* width: 100vw; */
 }
+.Each_Level_Component {
+  margin: 5%;
+}
 .level_component {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  margin: 10%;
   align-items: center;
   border-radius: 50%;
   width: 180px;
@@ -45,6 +46,12 @@
   height: 180px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 900px) {
+  .level_component {
+    width: 150px;
+    height: 150px;
+  }
 }
 .Levels_Container > .Each_Level_Component > *:hover {
   background-color: #e67716e7;
