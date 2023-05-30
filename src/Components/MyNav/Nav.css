@@ -1,3 +1,5 @@
+/** @format */
+
 .my-nav-component {
   width: 100%;
   position: fixed;
@@ -12,14 +14,14 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  overflow-y:hidden ;
+  overflow-y: hidden;
   color: black;
 }
 .image {
   width: 80px;
   height: 80px;
   padding: 1.5em;
-  overflow-y: hidden ;
+  overflow-y: hidden;
   will-change: filter;
   transition: filter 300ms;
   animation: rotation 4s infinite linear;
@@ -39,7 +41,6 @@
 }
 .dept-name > * {
   font-size: 1.5rem;
-  
 }
 .dept-name {
   /* position: absolute;
@@ -52,15 +53,29 @@
   justify-content: space-around;
   list-style: none;
 }
+.hideDisplay ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
 .second-nav-ele ul li {
   cursor: pointer;
   margin-right: 2rem;
+}
+.hideDisplay ul li {
+  cursor: pointer;
+  margin-top: 10px;
 }
 .second-nav-ele ul li a {
   padding: 0.5rem;
   color: black;
   border-radius: 5px;
-  
+}
+.hideDisplay ul li a {
+  padding: 0.5rem;
+  color: black;
+  border-radius: 5px;
 }
 .second-nav-ele ul li :hover {
   color: #29156e;
