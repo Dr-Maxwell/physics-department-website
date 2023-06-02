@@ -1,16 +1,23 @@
 /** @format */
 
 import React from "react";
+import { useState, useEffect } from "react";
 import "./Footer.css";
 import {
   FaLink,
   FaTelegram,
   FaFacebook,
   FaTwitter,
-  FaInstagram,
+  FaHeart,
 } from "react-icons/fa";
 
 const Footer = () => {
+  const [Year, setYear] = useState();
+
+  useEffect(() => {
+    setYear(new Date().toISOString().slice(0, 4));
+  }, [Year]);
+
   return (
     <div className="Footer" id="material">
       <div className="footer-child-one">
@@ -60,22 +67,32 @@ const Footer = () => {
         <span>SOCIALS</span>
         <div className="socials">
           <span>
-            <a href="">
+            <a href="https://web.facebook.com/napsites.unilorin/">
               <FaFacebook />
             </a>
           </span>
           <span>
-            <a href="">
+            <a href="https://twitter.com/NapsUnilorin?s=20&t=8luNSjTzfHM9ApweOexwnw">
               <FaTwitter />
             </a>
           </span>
           <span>
-            <a href="">
+            <a href="https://t.me/+nmDcq54w261mNzQ0">
               <FaTelegram />
             </a>
           </span>
         </div>
       </div>
+      <section className="copyright">
+        <h3>
+          <FaHeart /> Crafted and developed by{" "}
+          <a href="https://github.com/Dr-Maxwell">SpiderX</a>.
+        </h3>
+        <h3>
+          {" "}
+          Copyright &copy;{Year} Department Of Physics, University Of Ilorin.
+        </h3>
+      </section>
     </div>
   );
 };

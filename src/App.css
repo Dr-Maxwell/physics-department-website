@@ -191,15 +191,15 @@
   }
 
   .first-nav-ele > .dept-name > * {
-    font-size: 1.1rem;
-    margin-left: -1.7rem;
+    font-size: 1.3rem;
+    margin-left: -1.9rem;
   }
   .my-nav-component > .third-nav-ele i {
     font-size: 0.9rem;
   }
   .App > .my-nav-component > .first-nav-ele > .image {
-    max-height: 55px;
-    width: 55px;
+    max-height: 50px;
+    width: 50px;
     overflow: hidden;
     margin-left: -1rem;
   }
@@ -234,6 +234,9 @@
     height: 3rem;
     letter-spacing: 0.2rem;
   }
+}
+.first-nav-ele > .dept-name > * {
+  margin-left: -1.9rem;
 }
 
 /* 

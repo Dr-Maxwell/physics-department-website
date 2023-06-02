@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import logo from "../../src/logo.png";
 import "./MyNav/Nav.css";
@@ -17,8 +19,8 @@ const Nav = () => {
   // }
 
   return (
-    <div className="my-nav-component">
-      <div onClick={() => navigate("/")} className="first-nav-ele">
+    <div onClick={() => navigate("/")} className="my-nav-component">
+      <div className="first-nav-ele">
         <div className="image">
           <img src={logo} alt="Logo" />
         </div>
@@ -58,10 +60,15 @@ const Nav = () => {
       <div className="third-nav-ele">
         <div className="icons">
           <i>
-            <FaFacebook />
+            <a href="https://web.facebook.com/napsites.unilorin/">
+              <FaFacebook />
+            </a>
           </i>
           <i>
-            <FaTwitter />
+            <a href="https://twitter.com/NapsUnilorin?s=20&t=8luNSjTzfHM9ApweOexwnw">
+              {" "}
+              <FaTwitter />{" "}
+            </a>
           </i>
         </div>
         <div className="task">

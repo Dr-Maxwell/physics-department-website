@@ -18,11 +18,12 @@
   color: black;
 }
 .image {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   padding: 1.5em;
   overflow-y: hidden;
   will-change: filter;
+  cursor: pointer;
   transition: filter 300ms;
   animation: rotation 4s infinite linear;
 }
@@ -36,11 +37,14 @@
   justify-content: space-around;
   align-items: center;
 }
-.first-nav-ele > .dept-name > * span {
-  font-size: 2rem;
-}
+
 .dept-name > * {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 900px) {
+  .dept-name > * {
+    font-size: 1.5rem;
+  }
 }
 .dept-name {
   /* position: absolute;
@@ -81,9 +85,10 @@
   gap: 0.5rem;
 }
 
-.third-nav-ele .icons i {
+.third-nav-ele .icons a {
   font-size: 1.2rem;
+  color: black;
 }
-.third-nav-ele .icons i:hover {
+.third-nav-ele .icons a :hover {
   color: #e6771698;
 }

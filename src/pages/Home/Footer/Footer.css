@@ -2,7 +2,7 @@
 
 .Footer {
   padding-top: 2rem;
-  min-height: 40vh;
+  min-height: 50vh;
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -63,4 +63,12 @@
 }
 .menu-list ul li a:hover {
   color: blue;
+}
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
 }

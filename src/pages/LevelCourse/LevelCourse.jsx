@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import FirstLevel from "../../../src/image.jpg";
@@ -36,11 +38,7 @@ const LevelCourse = () => {
   return (
     <>
       <div className="Wrapper">
-        <div className="Wrapper-text">
-          {" "}
-          {`${message} Level Course Outline `}
-        </div>
-        <div className="Wrapper-image">
+        <div className="Wrapper_image">
           <img src={data} alt="image" />
         </div>
       </div>

@@ -8,15 +8,12 @@
   position: relative;
   margin-top: 5rem;
 }
-.Wrapper-text {
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 1.2rem;
-}
-.Wrapper-image {
+.Wrapper_image {
+  width: 100%;
+  margin-top: 2.3rem;
+  width: 100%;
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 .Wrapper-image img {
   width: 100%;
