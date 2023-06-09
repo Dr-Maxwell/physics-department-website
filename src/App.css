@@ -60,55 +60,6 @@
 } */
 
 @media screen and (max-width: 900px) {
-  .second-nav-ele {
-    position: fixed;
-    top: 60px;
-    left: 70px;
-    right: 0;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1600;
-    overflow: hidden;
-    min-height: 310px;
-    margin-top: 10px;
-    transition: 2s ease;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    border: none;
-    outline: none;
-  }
-  .second-nav-ele ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .second-nav-ele li {
-    margin: 1.5rem 0rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-  }
-  .hideDisplay {
-    position: fixed;
-    display: block;
-    top: 60px;
-    left: 100%;
-    right: 0;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1600;
-    overflow: hidden;
-    min-height: 310px;
-    margin-top: 10px;
-    /* transition: 2s ease; */
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    border: none;
-    outline: none;
-  }
-
   .third-nav-ele .icons {
     display: none;
     visibility: hidden;
@@ -136,19 +87,6 @@
     font-size: 2rem;
   }
 
-  .second-nav-ele ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .second-nav-ele ul * {
-    justify-content: center;
-    text-align: center;
-    gap: 0.2rem;
-  }
-  .second-nav-ele ul li > * {
-    color: white;
-  }
   .swiper {
     width: 70%;
     height: 80%;
@@ -198,8 +136,8 @@
     font-size: 0.9rem;
   }
   .App > .my-nav-component > .first-nav-ele > .image {
-    max-height: 50px;
-    width: 50px;
+    max-height: 55px;
+    width: 55px;
     overflow: hidden;
     margin-left: -1rem;
   }

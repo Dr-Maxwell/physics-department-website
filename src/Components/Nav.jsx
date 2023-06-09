@@ -7,7 +7,7 @@ import { FaTwitter, FaBars, FaFacebook } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 const Nav = () => {
   const navigate = useNavigate();
-  const [display, setdisplay] = useState(false);
+  const [display, setdisplay] = useState(true);
   const [isMobile, setisMobile] = useState();
 
   useEffect(() => {
@@ -19,8 +19,8 @@ const Nav = () => {
   // }
 
   return (
-    <div onClick={() => navigate("/")} className="my-nav-component">
-      <div className="first-nav-ele">
+    <div className="my-nav-component">
+      <div onClick={() => navigate("/")} className="first-nav-ele">
         <div className="image">
           <img src={logo} alt="Logo" />
         </div>
@@ -35,7 +35,7 @@ const Nav = () => {
           isMobile < 900
             ? display
               ? "second-nav-ele"
-              : "hideDisplay"
+              : "ShowDisplay"
             : "second-nav-ele"
         }
       >

@@ -45,7 +45,105 @@
   .dept-name > * {
     font-size: 1.5rem;
   }
+  .second-nav-ele {
+    position: fixed;
+    top: 60px;
+    left: 100%;
+
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1600;
+    overflow: hidden;
+    min-height: 310px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+  }
+
+  .ShowDisplay {
+    position: fixed;
+    top: 60px;
+    left: 70px;
+    right: 0px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1600;
+    overflow: hidden;
+    min-height: 310px;
+    list-style: none;
+    margin-top: 10px;
+    transition: 2s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+  }
+
+  .ShowDisplay ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+  }
+
+  .ShowDisplay ul li {
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    margin-right: 5.65rem;
+    width: 100%;
+  }
+
+  .ShowDisplay ul li a {
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  .ShowDisplay li :hover {
+    color: #29156e;
+    border: 3px solid #e6771698;
+  }
+
+  .second-nav-ele li {
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+  }
+  .second-nav-ele ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .second-nav-ele ul li a {
+    padding: 0.5rem;
+    color: black;
+    border-radius: 5px;
+  }
+  .second-nav-ele ul li :hover {
+    color: #29156e;
+    border: 3px solid #e6771698;
+  }
 }
+.ShowDisplay ul li :hover {
+  color: #29156e;
+  border: 3px solid #e6771698;
+}
+
 .dept-name {
   /* position: absolute;
   left: 6rem; */
