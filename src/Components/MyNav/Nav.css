@@ -24,8 +24,6 @@
   overflow-y: hidden;
   will-change: filter;
   cursor: pointer;
-  transition: filter 300ms;
-  animation: rotation 4s infinite linear;
 }
 .image img {
   position: relative;
@@ -49,7 +47,6 @@
     position: fixed;
     top: 60px;
     left: 100%;
-
     display: block;
     justify-content: space-between;
     align-items: center;
@@ -100,7 +97,6 @@
     gap: 2rem;
     cursor: pointer;
     margin-right: 5.65rem;
-    width: 100%;
   }
 
   .ShowDisplay ul li a {

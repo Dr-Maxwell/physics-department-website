@@ -17,18 +17,18 @@
   position: relative;
   margin-bottom: 2rem;
 }
+
 .swiper-slide > .SwiperSlide > p {
   text-align: justify;
   /* backgd */
 }
-/* .SwiperSlide {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-} */
+@media screen and (min-width: 900px) {
+  .SwiperSlide:hover {
+    border-bottom: 3px solid #e6771676;
+  }
+}
 .swiper-slide img {
-  width: 100%;
+  width: 97%;
   height: 120px;
   object-fit: cover;
 }

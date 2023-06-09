@@ -38,6 +38,7 @@ const Nav = () => {
               : "ShowDisplay"
             : "second-nav-ele"
         }
+        onClick={() => setdisplay(true)}
       >
         <ul>
           <li>
