@@ -7,9 +7,15 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className="Home" id="home">
+    <div
+      className="Home"
+      id="home"
+      style={{
+        backgroundImage: `url(${HomeImg})`,
+      }}
+    >
       {" "}
-      <img src={HomeImg} alt="" />
+      {/* <img src={HomeImg} alt="" /> */}
       <div className="Home-text">
         <h3>
           <Typewriter

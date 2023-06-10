@@ -3,7 +3,6 @@ import "./Career.css";
 import Slider from "./Slider";
 console.log(window.addEventListener("scrollX", checkSize));
 function checkSize(e) {
-  console.log(e);
 }
 const Career = () => {
   return (
