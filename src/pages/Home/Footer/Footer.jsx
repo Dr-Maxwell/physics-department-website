@@ -85,12 +85,13 @@ const Footer = () => {
       </div>
       <section className="copyright">
         <h3>
-          <FaHeart /> Crafted and developed by{" "}
-          <a href="https://github.com/Dr-Maxwell">SpiderX</a>.
+          Developed by <a href="https://github.com/Dr-Maxwell">SpiderX</a> ||
+          Newton's Adminstration.{" "}
         </h3>
         <h3>
           {" "}
-          Copyright &copy;{Year} Department Of Physics, University Of Ilorin.
+          &copy;{Year} Department Of Physics, University Of Ilorin. All right
+          reserved.
         </h3>
       </section>
     </div>

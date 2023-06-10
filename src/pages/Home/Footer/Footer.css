@@ -72,7 +72,9 @@
   position: absolute;
   bottom: 0px;
 }
-
+.copyright :nth-child(1) {
+  margin-bottom: -0.7rem;
+}
 .copyright a {
   color: #e67716e7;
 }
