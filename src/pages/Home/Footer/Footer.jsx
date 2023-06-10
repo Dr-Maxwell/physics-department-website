@@ -3,13 +3,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Footer.css";
-import {
-  FaLink,
-  FaTelegram,
-  FaFacebook,
-  FaTwitter,
-  FaHeart,
-} from "react-icons/fa";
+import { FaLink, FaTelegram, FaFacebook, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   const [Year, setYear] = useState();
@@ -86,10 +80,9 @@ const Footer = () => {
       <section className="copyright">
         <h3>
           Developed by <a href="https://github.com/Dr-Maxwell">SpiderX</a> ||
-          Newton's Adminstration.{" "}
+          Newton's Adminstration.
         </h3>
         <h3>
-          {" "}
           &copy;{Year} Department Of Physics, University Of Ilorin. All right
           reserved.
         </h3>

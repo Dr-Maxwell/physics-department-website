@@ -16,6 +16,7 @@
   border-radius: 15px 2px 7px 5px;
 }
 .courses h2 {
+  color: black;
   letter-spacing: 0.2rem;
 }
 .courses > h3 {
